@@ -7,6 +7,8 @@ require github.com/sirupsen/logrus v1.9.3
 require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/go-ozzo/ozzo-validation v3.6.0+incompatible // indirect
+	github.com/gorilla/securecookie v1.1.2 // indirect
+	github.com/gorilla/sessions v1.4.0 // indirect
 	github.com/lib/pq v1.10.9 // indirect
 	golang.org/x/crypto v0.29.0 // indirect
 )
