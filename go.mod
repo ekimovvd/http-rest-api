@@ -4,7 +4,12 @@ go 1.23.2
 
 require github.com/sirupsen/logrus v1.9.3
 
-require github.com/lib/pq v1.10.9 // indirect
+require (
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
+	github.com/go-ozzo/ozzo-validation v3.6.0+incompatible // indirect
+	github.com/lib/pq v1.10.9 // indirect
+	golang.org/x/crypto v0.29.0 // indirect
+)
 
 require (
 	github.com/BurntSushi/toml v1.4.0 // indirect
@@ -13,6 +18,6 @@ require (
 	github.com/magiconair/properties v1.8.7
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/testify v1.9.0 // indirect
-	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
+	golang.org/x/sys v0.27.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
